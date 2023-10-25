@@ -1,0 +1,319 @@
+/* COLOR 
+================================================*/
+:root {
+  --light-blue: #4db1ec;
+  --blue: #1665cc;
+  --purple: #b473bf;
+  --pink: #ffb2c1;
+  --orange: #ff9f67;
+  --yellow: #ffd673;
+  --light-green: #a2e29b;
+  --green: #00a2af;
+  --grey: #333;
+  --white: #fff;
+}
+
+/*
+GENERAL STYLING
+================================================ */
+html {
+  font-size: 100%;
+ 
+  scroll-behavior: smooth;
+}
+body {
+  color: var(--grey);
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+}
+
+/*
+COMMON
+================================================ */
+p {
+  line-height: 1.7;
+}
+img {
+  max-width: 100%;
+}
+h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+/* Layout */
+.wrapper {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/*
+HEADER
+================================================ */
+header {
+  background: var(--grey);
+  padding: 1rem 0;
+
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+header a {
+  color: var(--white);
+  font-size: 1rem;
+}
+
+
+/*
+HERO
+================================================ */
+#hero {
+  background-color: var(--light-blue);
+  background-image: url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: screen;
+  animation: bg-color 24s infinite;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+@keyframes bg-color {
+  0% {
+    background-color: var(--light-blue);
+  }
+  12.5% {
+    background-color: var(--blue);
+  }
+  25% {
+    background-color: var(--purple);
+  }
+  37.5% {
+    background-color: var(--pink);
+  }
+  50% {
+    background-color: var(--orange);
+  }
+  62.5% {
+    background-color: var(--yellow);
+  }
+  75% {
+    background-color: var(--light-green);
+  }
+  87.5% {
+    background-color: var(--green);
+  }
+  100% {
+    background-color: var(--light-blue);
+  }
+}
+#hero h1 {
+  font-size: 4.5rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+.hero-p {
+  text-align: center;
+  border-top: 3px solid var(--grey);
+  border-bottom: 3px solid var(--grey);
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/*
+APP
+================================================ */
+#app {
+  padding: 4rem 1rem;
+}
+#app h2 {
+  color: var(--grey);
+}
+#app p {
+  margin-bottom: 2rem;
+}
+
+/*
+travel
+================================================ */
+#travel {
+  background-image: linear-gradient(var(--light-green), var(--green));
+  padding: 7rem 0;
+  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+}
+#travel h2 {
+  color: var(--grey);
+}
+.travel-table {
+  color: var(--grey);
+  width: 100%;
+}
+.travel-table tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.travel-table td {
+  display: block;
+  line-height: 1.5;
+}
+.travel-date {
+  font-size: 0.875rem;
+  padding-top: 1rem;
+}
+.travel-content {
+  padding-bottom: 1rem;
+}
+
+/*
+BLOG
+================================================ */
+#blog {
+  padding: 4rem 1rem;
+}
+.blog-list {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+.blog-text {
+  margin-left: 1rem;
+}
+#blog h2 {
+  color: var(--grey);
+}
+#blogh3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+#blog img {
+  border-radius: 50%;
+  width: 20%;
+}
+
+/*
+SIGN IN
+================================================ */
+#signin {
+  background-image: linear-gradient(var(--pink), var(--purple));
+  padding: 6rem 1rem 2rem;
+  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+}
+#signin h2 {
+  color: var(--grey);
+}
+.signin-form {
+  max-width: 480px;
+  margin: 0 auto 5rem;
+}
+.signin-form label {
+  color: var(--grey);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.signin-field {
+  background: rgba(255,255,255,.6);
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.signin-btn {
+  background: var(--grey);
+  color: var(--white);
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10vw;
+}
+
+/*
+FOOTER
+================================================ */
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--grey);
+}
+.footer a {
+  text-decoration: none;
+}
+
+/*
+DESKTOP SIZE
+================================================ */
+@media (min-width: 600px) {
+  /* Common */
+  h2 {
+    font-size: 3rem;
+    letter-spacing: 10px;
+  }
+
+   /* Header */
+   .btn-menu {
+    display: none;
+}
+  .main-nav {
+    width: 100%;
+    display: flex;
+  }
+  .main-nav li {
+    margin: 0 0 0 1.5rem;
+  }
+
+  /* Header */
+  .btn-menu {
+    display: none;
+}
+.main-nav {
+    width: 100%;
+
+    display: flex;
+}
+.main-nav li {
+    margin: 0 0 0 1.5rem;
+}
+  /* Hero */
+  #hero h1 {
+    font-size: 6.875rem;
+  }
+  .hero-date {
+    font-size: 3rem;
+  }
+  /* travel */
+  .travel-table td {
+    display: table-cell;
+  }
+  .travel-date {
+    padding: 1.125rem 0 1rem 1rem;
+  }
+  .travel-content {
+    padding: 1rem 1rem 1rem 0;
+  }
+  /* blog */
+  #blog h2 {
+    margin-bottom: 4rem;
+  }
+  .blog-list {
+    margin-bottom: 3rem;
+  }
+  .blog-text {
+    margin-left: 2rem;
+  }
+}
+
+
