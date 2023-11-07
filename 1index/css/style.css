@@ -23,7 +23,7 @@ html {
 }
 body {
   color: var(--grey);
-  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  font-family: 'Ubuntu', sans-serif;;
 }
 
 /*
