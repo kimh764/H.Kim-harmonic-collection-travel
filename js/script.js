@@ -1,5 +1,4 @@
 /* Lightbox Luminous */
-// new LuminousGallery(document.querySelectorAll(".grid-gallery"));
 new LuminousGallery(document.querySelectorAll('.grid-gallery'), {}, {
     caption: function(trigger) {
       return trigger.querySelector('img').getAttribute('alt');
@@ -7,7 +6,6 @@ new LuminousGallery(document.querySelectorAll('.grid-gallery'), {}, {
   });
   
   /* Fadeup Animation AOS */
-  // AOS.init();
   AOS.init({
     duration: 3000
   });
