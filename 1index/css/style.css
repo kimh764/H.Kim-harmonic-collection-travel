@@ -148,7 +148,7 @@ APP
 travel
 ================================================ */
 #travel {
-  background-image: linear-gradient(var(--light-green), var(--green));
+  background-image: linear-gradient(var(--pink), var(--green));
   padding: 7rem 0;
   -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
   clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
