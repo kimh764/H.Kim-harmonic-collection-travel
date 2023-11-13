@@ -39,7 +39,7 @@ img {
   max-width: 100%;
 }
 a:hover {
-  color: pink;
+  color: gray;
 }
 
 
@@ -155,8 +155,8 @@ footer .menu li a {
   font-weight: 700;
   padding: 15px;
 }
-footer .menu li a.pink {
-  color:#FFB6C1; 
+footer .menu li a.gray {
+  color: gray; 
 }
 footer .btn-group {
   margin-top: 20px;
