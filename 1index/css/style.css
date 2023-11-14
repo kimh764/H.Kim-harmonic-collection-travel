@@ -126,6 +126,7 @@ HERO
   font-weight: 900;
   margin-bottom: 1.5rem;
   color: rgb(4, 6, 6);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .hero-p {
   text-align: center;
@@ -197,7 +198,7 @@ BLOG
 }
 .blog-text {
   margin-left: 1rem;
-  color: var(--white);
+  color: gainsboro;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #blog h2 {
@@ -206,8 +207,8 @@ BLOG
 #blog h3 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  color: rgb(220, 220, 221);
-  font-family: 'Wallpoet', sans-serif;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #blog img {
   border-radius: 50%;
