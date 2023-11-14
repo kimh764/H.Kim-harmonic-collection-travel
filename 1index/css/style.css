@@ -26,6 +26,8 @@ body {
   font-family: 'Ubuntu', sans-serif;;
 }
 
+
+
 /*
 COMMON
 ================================================ */
@@ -138,11 +140,13 @@ APP
   padding: 4rem 1rem;
 }
 #app h2 {
-  color: var(--grey);
+  color: var(--pink);
 }
 #app p {
   margin-bottom: 2rem;
+  color: var(--pink);
 }
+
 
 /*
 travel
