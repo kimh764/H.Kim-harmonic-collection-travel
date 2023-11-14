@@ -146,22 +146,7 @@ APP
 #app p {
   margin-bottom: 2rem;
   color: var(--white);
-} .box {
-  width: 400px;
-  height: 400px;
 }
-
-img {
-  height: 100%;
-  width: 100%;
-}
-
-
-.cover {
-  object-fit: cover;
-}
-
-
 
 /*
 travel
